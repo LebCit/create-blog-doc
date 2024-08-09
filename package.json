@@ -1,6 +1,6 @@
 {
   "name": "create-blog-doc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Initializer for Blog-Doc: The simplest Node.js CMS and SSG!",
   "main": "init.js",
   "bin": {
@@ -35,8 +35,12 @@
   ],
   "author": "LebCit (https://lebcit.github.io/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LebCit/create-blog-doc.git"
+  },
   "bugs": {
-    "url": "https://github.com/LebCit/blog-doc/issues"
+    "url": "https://github.com/LebCit/create-blog-doc/issues"
   },
   "homepage": "https://blog-doc.pages.dev/"
 }
