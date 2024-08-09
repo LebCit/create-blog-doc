@@ -3,6 +3,8 @@
 The Simplest Node.js CMS & SSG!  
 A tiny flame in the darkness of error...
 
+**BLOG-DOC APPLICATION INITIALIZER**
+
 ## Documentation
 
 With the release of [version 3.0.0](https://github.com/LebCit/blog-doc/releases/tag/v3.0.0), Blog-Doc has undergone some fantastic updates. I've integrated [LiteNode](https://www.npmjs.com/package/litenode) to streamline and enhance your experience.
