@@ -1,46 +1,46 @@
 {
-  "name": "create-blog-doc",
-  "version": "1.0.2",
-  "description": "Initializer for Blog-Doc: The simplest Node.js CMS and SSG!",
-  "main": "init.js",
-  "bin": {
-    "create-blog-doc": "./init.js"
-  },
-  "scripts": {
-    "init": "node ./init.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "backend",
-    "blog",
-    "blog-doc",
-    "build-tool",
-    "cms",
-    "content",
-    "content-management",
-    "frontend",
-    "generator",
-    "initializer",
-    "litenode",
-    "management",
-    "markdown",
-    "nodejs",
-    "site",
-    "site-generator",
-    "ssg",
-    "static",
-    "static-site",
-    "system",
-    "template"
-  ],
-  "author": "LebCit (https://lebcit.github.io/)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LebCit/create-blog-doc.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LebCit/create-blog-doc/issues"
-  },
-  "homepage": "https://blog-doc.pages.dev/"
+    "name": "create-blog-doc",
+    "version": "1.0.2",
+    "description": "Initializer for Blog-Doc: The simplest Node.js CMS and SSG!",
+    "main": "init.js",
+    "bin": {
+        "create-blog-doc": "./init.js"
+    },
+    "scripts": {
+        "init": "node ./init.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "backend",
+        "blog",
+        "blog-doc",
+        "build-tool",
+        "cms",
+        "content",
+        "content-management",
+        "frontend",
+        "generator",
+        "initializer",
+        "litenode",
+        "management",
+        "markdown",
+        "nodejs",
+        "site",
+        "site-generator",
+        "ssg",
+        "static",
+        "static-site",
+        "system",
+        "template"
+    ],
+    "author": "LebCit (https://lebcit.github.io/)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LebCit/create-blog-doc.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LebCit/create-blog-doc/issues"
+    },
+    "homepage": "https://blog-doc.pages.dev/"
 }

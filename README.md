@@ -1,68 +1,84 @@
 # Blog-Doc
 
-The Simplest Node.js CMS & SSG!  
+**The Simplest Node.js CMS & SSG**  
 A tiny flame in the darkness of error...
 
-**BLOG-DOC APPLICATION INITIALIZER**
+---
 
-## Documentation
+## What is this?
 
-With the release of [version 3.0.0](https://github.com/LebCit/blog-doc/releases/tag/v3.0.0), Blog-Doc has undergone some fantastic updates. I've integrated [LiteNode](https://www.npmjs.com/package/litenode) to streamline and enhance your experience.
+This is the initializer package for [Blog-Doc](https://github.com/LebCit/blog-doc), a local Markdown CMS and static site generator built on Node.js.
 
-The Blog-Doc admin interface is now more intuitive than ever. Each page comes with its own handy documentation, all designed with [responsive attributes](https://responsive-attributes-generator.pages.dev/) for seamless usability on any device.
+Run a single command and you have a working project on your machine — write content in Markdown, manage it through a clean admin interface, and build a complete static site ready to deploy anywhere.
 
-You can check out **the full documentation for Blog-Doc** here: [Blog-Doc Documentation](https://blog-doc.pages.dev/).
+---
 
 ## Requirements
 
-1. Blog-Doc requires [Node.js](https://nodejs.org/en) version 18.x or higher.
-    - For the best experience, use the latest [Long Term Support](https://nodejs.org/en/download/package-manager) (LTS) version.
-2. Make sure you have the latest version of [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
+- [Node.js](https://nodejs.org/en) v18 or later (LTS recommended)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (latest version recommended)
+
+---
 
 ## Installation
 
-To get Blog-Doc up and running on your machine, follow these steps:
+Open a terminal in the directory where you want to create your project and run one of the following:
 
-1. Open your preferred IDE (like VS Code) and navigate to the directory where you want to install Blog-Doc.
-2. In the terminal, you have two options to install Blog-Doc:
-
-### Option 1: Using `npx`
-
-Run the following command:
+### Using `npx`
 
 ```bash
-npx create-blog-doc my-blog-doc-app
+npx create-blog-doc my-blog
 ```
 
-This will create a new folder named **my-blog-doc-app** within your current directory, containing all the files you need.
-
-### Option 2: Using `npm init`
-
-Alternatively, you can use the following command:
+### Using `npm init`
 
 ```bash
-npm init blog-doc my-blog-doc-app
+npm init blog-doc my-blog
 ```
 
-This will also create a new folder named **my-blog-doc-app** within your current directory, containing all the files you need.
+Replace `my-blog` with whatever you want your project folder to be named.
 
-3. Once installed, start Blog-Doc by typing:
+This will clone the Blog-Doc repository into that folder and install all dependencies automatically.
+
+---
+
+## Getting started
+
+Once installation is complete, navigate into your project folder and start the app:
 
 ```bash
-npm run fire
+cd my-blog
+npm start
 ```
 
-This command will launch the app, which you can then explore in your browser at [localhost on port 5000](http://localhost:5000).
+Then open your browser:
 
-Blog-Doc comes with some sample posts and pages. Feel free to create your own content through the admin interface, and you can remove the default ones as needed.
+| URL                           | What's there      |
+| ----------------------------- | ----------------- |
+| `http://localhost:3000`       | Live site preview |
+| `http://localhost:3000/admin` | Admin interface   |
 
-Enjoy exploring Blog-Doc! 🚀
+Create your own content through the admin interface.
 
-## What's Next?
+---
 
-I’m excited to keep improving Blog-Doc in my spare time. Consider it a prototype that you can customize and adapt to your own design and template needs.
+## Updating
 
-I genuinely hope this tool is helpful for the Node.js and Markdown communities. I welcome any [ideas](https://github.com/LebCit/blog-doc/discussions/categories/ideas), [code issues](https://github.com/LebCit/blog-doc/issues), or [code improvements](https://github.com/LebCit/blog-doc/pulls) you might have.
+To update Blog-Doc to the latest version at any time, run this from inside your project folder:
+
+```bash
+npm run update
+```
+
+Your content, settings, and installed themes are never affected by updates.
+
+---
+
+## Further reading
+
+Full documentation is available at [blog-doc.pages.dev](https://blog-doc.pages.dev/).
+
+---
 
 See you around!  
 [LebCit](https://lebcit.github.io/)
