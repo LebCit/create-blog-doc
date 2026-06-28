@@ -1,6 +1,6 @@
 {
     "name": "create-blog-doc",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Initializer for Blog-Doc: The simplest Node.js CMS and SSG!",
     "main": "init.js",
     "bin": {
