@@ -1,6 +1,6 @@
 # Blog-Doc
 
-**The Simplest Node.js CMS & SSG**  
+**The Simplest Node.js CMS & SSG!**  
 A tiny flame in the darkness of error...
 
 ---
@@ -79,6 +79,13 @@ Your content, settings, and installed themes are never affected by updates.
 Full documentation is available at [blog-doc.pages.dev](https://blog-doc.pages.dev/).
 
 ---
+
+## Support callout
+
+Give Blog-Doc a try, I think you'll be amazed by its simplicity and features!
+
+If you find Blog-Doc useful, please consider giving it a star. It would mean a lot and genuinely helps.  
+Thank you for supporting the work of a solo developer whose goal is to make website creation easier and more accessible for everyone.
 
 See you around!  
 [LebCit](https://lebcit.github.io/)
